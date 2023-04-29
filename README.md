@@ -4,7 +4,7 @@ A Python script is utilized for converting PDF files into PNG format, with the p
 
 To use the script, the user must first modify the folder path in pdf_convert.py to point to the directory containing the PDF files. Once this is done, the script can be executed. However, it is important to note that the script will delete the original PDF files once the conversion process is complete. It is strongly advised that users ensure they have a backup of all PDF files before executing the script, as the files will be permanently deleted otherwise. 
 
-****** This information is provided for educational purposes only.
+****** This too and information is provided for educational purposes only.
 
 
 The following dependencies must be installed for the script to function properly: libpng-dev, libjpeg-dev, and zlib1g-dev. Additionally, the pdf2image package must be installed via pip, while the poppler-utils package can be installed using the sudo apt-get command.

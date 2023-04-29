@@ -13,7 +13,7 @@ Python script used to convert PDF files into PNG. The goal is to combine multipl
 4. Open the pdf_convert.py file, edit the folder path so that it points to the directory that containts all the PDF files. Run the python script.
 
 ****** WARNING**************
-pdf_convert.py
+
 This script will delete the PDF files once the conversion is completed. Make sure you have a backup of all the PDF files. Otherwise, they will be GONE!!!
 
 ****** WARNING**************

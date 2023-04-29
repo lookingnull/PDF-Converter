@@ -24,4 +24,4 @@ This script will delete the PDF files once the conversion is completed. Make sur
 ****** WARNING**************
 
 
-Use at your own risk. I am not responsible for improper use of this tool. 
+Use at your own risk. I am not responsible for any use or improper use of this tool. 

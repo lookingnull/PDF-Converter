@@ -1,8 +1,13 @@
 # PDF-Converter
 
-Python script used to convert PDF files into PNG. The goal is to combine multiple PDF files into one PDF. 
+A Python script is utilized for converting PDF files into PNG format, with the purpose of merging multiple PDF files into one.
 
-****** This is for educational pupose only. 
+To use the script, the user must first modify the folder path in pdf_convert.py to point to the directory containing the PDF files. Once this is done, the script can be executed. However, it is important to note that the script will delete the original PDF files once the conversion process is complete. It is strongly advised that users ensure they have a backup of all PDF files before executing the script, as the files will be permanently deleted otherwise. 
+
+****** This information is provided for educational purposes only.
+
+
+The following dependencies must be installed for the script to function properly: libpng-dev, libjpeg-dev, and zlib1g-dev. Additionally, the pdf2image package must be installed via pip, while the poppler-utils package can be installed using the sudo apt-get command.
 
 1. Install dependencies: sudo apt-get install libpng-dev libjpeg-dev zlib1g-dev
 
@@ -19,4 +24,4 @@ This script will delete the PDF files once the conversion is completed. Make sur
 ****** WARNING**************
 
 
-Use at your own risk. I am not responsible for missuse or improper use of this tool. 
+Use at your own risk. I am not responsible for improper use of this tool. 
